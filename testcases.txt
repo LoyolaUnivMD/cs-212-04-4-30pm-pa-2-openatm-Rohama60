@@ -1,0 +1,5 @@
+Test case one is going to be the user entering the right information and making a deposit and out put the updated version
+Test case two is going to be an user does not have their name stored and crates a new account and checking their balance after deposit
+Test case three is going to be error checking where the user does not enter a correct username
+Test case four is going to be user input the right information, and they ask to see their transaction history
+Test case five is going to be where the user exits
