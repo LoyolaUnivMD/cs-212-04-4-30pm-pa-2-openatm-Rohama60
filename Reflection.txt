@@ -1,0 +1,16 @@
+What is the most challenging thing you experienced?
+ - One challenging aspect of this program could be error handling and input validation.
+   Ensuring that the program handles invalid inputs gracefully and provides informative
+   error messages can be crucial for a user-friendly experience and to prevent unexpected behavior.
+How did you overcome it?
+ - I had to implement robust error handling and input validation mechanisms in your program
+Anything you would do differently given what you know now.
+ - I would use more classes to make it easier to manage and to find.
+Was it helpful to build on a project that you already built in lab?
+ - Yes, it makes it easier to memorize the code and understand it more.
+Are you becoming more comfortable with classes?
+ - Yes, I have been more comfortable and understanding to use classes. It helped me memorize
+    the codes when we use them more.
+How did you feel about arrays? Were there things about them that you would like to overcome?
+ - I am understanding what an array is and how it is used. I have re-learn it myself to be comfortable
+    with it, but it is still progress. I want to overcome it now by learning ways to memorize the code.

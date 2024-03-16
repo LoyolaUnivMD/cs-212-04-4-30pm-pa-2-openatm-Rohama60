@@ -1,15 +1,30 @@
-In Account class:
-Variables:
-private String accountOwner: Represents the owner of the account and uses the data type String.
-private double balance: Represents the balance in the account and uses the data type double.
-private double[] transactionHistory: Represents an array to store transaction history and uses the data type double[].
-private int numOfRecentTransactions: Represents the number of recent transactions to track and uses the data type int.
-Constructor:
-public Account(int numOfRecentTransactions, double initialDeposit, String accountOwner): Constructor with parameters numOfRecentTransactions, initialDeposit, and accountOwner. It initializes the instance variables with the values provided during object creation.
-Methods:
-public boolean isOwner(String person): Method that takes a String parameter person and returns a boolean indicating if the person is the account owner.
-public void deposit(double amount): Method to deposit a specified double amount into the account. Prints error messages if the amount is zero or negative.
-public void withdraw(double amount): Method to withdraw a specified double amount from the account. Prints error messages if the amount is zero, negative, or exceeds the balance.
-public double[] getStats(): Method that returns the transaction history as a double array.
-private void updateTransactionHistory(double amount): Private method to update the transaction history, shifting the existing values and adding a new transaction amount.
-@Override public String toString(): Overridden method to provide a string representation of the account details, including the owner's name and the balance.
+1, Start the ATM program.
+2, Initialize an array of Account objects with a size of 5.
+3, Display a prompt asking the user to enter their full name or 'exit' to end.
+4, If the user enters 'exit', exit the program.
+5, Find the account number for the user based on their full name.
+6, If the account number is not found and there are unused accounts available:
+   - Create a new account with the provided full name.
+7, Get the user's account based on the account number.
+8, Display the user's account number.
+9, Display a menu with options:
+   - Deposit
+   - Withdraw
+   - Get Statistics
+   - View Recent Transactions
+   - Leave
+10, Based on the user's selection:
+   - For Deposit:
+       * Prompt the user to enter a deposit amount.
+       * If the amount is valid, deposit the amount into the account.
+   - For Withdrawal:
+       * Prompt the user to enter a withdrawal amount.
+       * If the amount is valid and there are sufficient funds, withdraw the amount from the account.
+   - For Get Statistics:
+       * Display the current balance, minimum transaction size, maximum transaction size, and average transaction size of the account.
+   - For View Recent Transactions:
+       * Display the recent transactions (deposits and withdrawals) made for the account.
+   - For Leave:
+       * Exit the menu.
+11, Repeat steps 3 to 10 until the user chooses to exit the program.
+12, Exit the ATM program.
